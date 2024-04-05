@@ -1,0 +1,117 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 14.37rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.sidenav .mat-toolbar {
+  background-color: black;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: black;
+
+}
+
+.mat-drawer-content {
+  background-color: black;
+}
+
+.formContainer{
+
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  padding-left: 0.5rem;
+  mat-label{
+    color: rgb(173, 46, 116);
+    font-family: Unbounded, sans-serif;
+  }
+  input{
+    width: 90%;
+  }
+  button{
+    background-color: transparent;
+    border: none;
+    color: rgb(173, 46, 116);
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.connection{
+  padding: 0;
+  .access-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    button{
+      border: rgb(203, 32, 132) solid 1px;
+      min-width: 5rem;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      font-family: Gluten, sans-serif;
+      font-size: 1rem;
+      font-weight: normal;
+      gap: 0.5rem;
+      mat-icon{
+        color: rgb(203, 32, 132);
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+button:hover {
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.menu{
+  .profile-button{
+    font-family: 'Gluten', sans-serif;
+    .profile-icon{
+      img{
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+.game-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  mat-icon{
+    color: red;
+  }
+  .icon-games{
+    color: white;
+  }
+}
